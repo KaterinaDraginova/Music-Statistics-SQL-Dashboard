@@ -1,5 +1,14 @@
 --#Write a query to show the Venue and Capacity columns from the Venue table and 
 --#add a calculated column called Venue_size which describes the venues according to the table below:
+--Value of Capacity | Description
+--NULL              | Unknown
+--Less than 1000    | Intimate
+--Less than 10000   | Small
+--Less than 50000   | Medium
+--Less than 100000  |Large
+--Everything else   |Enormous
+
+
 
 
 SELECT 
