@@ -19,7 +19,8 @@ As the volume and complexity of music data grow, the industry needs systems capa
 
 By bridging the worlds of data and entertainment, Musicstatistic empowers users to turn raw music industry information into meaningful stories and insights.
 
-
+## Database Schema Overview
+The project adopts a Snowflake Schema to organize and manage music industry data.The schema is highly normalized, with multiple related dimension tables such as Genre, Subgenre, Album_Type, Venue_Type, and Venue_Category. This structure minimizes redundancy and ensures data integrity, while enabling detailed analysis of music releases, performances, and global tour logistics
 
 <img width="1079" alt="image" src="https://github.com/user-attachments/assets/d3ed9a69-c893-4ed0-9976-a057bbad24da" />
 <img width="1082" alt="image" src="https://github.com/user-attachments/assets/677393ea-605d-4bf4-8dab-393c9a9f53fe" />
