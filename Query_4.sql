@@ -4,8 +4,6 @@
 --Sort the results in descending order of this column.
 
 
-
-
 SELECT 
 	Tour_name,
 	Start_date,
