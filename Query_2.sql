@@ -1,5 +1,7 @@
 --#Write a query to show the Venue and Capacity columns from the Venue table and 
 --#add a calculated column called Venue_size which describes the venues according to the table below:
+
+
 --Value of Capacity | Description
 --NULL              | Unknown
 --Less than 1000    | Intimate
@@ -24,8 +26,17 @@ SELECT
 	END AS Venue_size
 FROM Venue v;
 
+
+
 --#Write another query to show the Venue and Opening_date columns from the Venue table.
 --#Add a calculated column called Venue_era which describes venues according to the table below:
+
+--Value of Opening_date           |  Description
+--NULL                            |  Unknown
+--Before the 1st of January 1801  |  Ancient
+--Before the 1st of January 1901  |  19th Century
+--Before the 1st of January 2001  |  20th Century
+--Everything else                 |  21st Century
 
 
 SELECT 
