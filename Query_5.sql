@@ -1,3 +1,13 @@
+--Build a SQL stored procedure that analyzes concert tour performance based on ticket sales and revenue.
+--Show total tickets sold and total revenue
+--Alter the procedure so that it also returns the average of TIckets_sold and Revenue_$ 
+--Sort the final output in descending order based on average revenue
+
+
+
+
+
+
 CREATE OR ALTER PROC dbo.usp_Tour_Totals
 AS
 BEGIN
