@@ -1,6 +1,5 @@
---#Using a combination of subqueries,
---#show a list of albums released in the same year as the album with the most US sales,
---#sorted in descending order of sales
+--#Using a combination of subqueries,show a list of albums released in the same year as the album with the most US sales,
+--#sort the results in descending order of sales
 
 SELECT 
 	ar.Artist,
